@@ -1,0 +1,31 @@
+.navbar{
+    background-color: white !important;
+    font-family: 'Roboto Condensed', sans-serif;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.363);
+}
+
+.navbar li .nav-link{
+    color: black;
+    font-size: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    transition: all .3s ease;
+}
+
+.navbar li .nav-link:hover{
+    /* transform: scale(1.3,1.3); */
+    background-color: white;
+    color: rgb(182, 182, 182) !important;
+}
+
+.navbar .brand-logo{
+    color: black !important;
+}
+
+.navbar .sidenav-trigger{
+color: black;
+}
+
+#tancell-logo{
+    max-height: 70px;
+}
