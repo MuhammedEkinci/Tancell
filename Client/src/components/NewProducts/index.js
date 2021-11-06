@@ -8,17 +8,17 @@ export default function NewProduct(){
     return (
         <section id="new-product-section" className="page-section wrapper">
             <Row>
-                <Col lg={12} sm={12}>
+                <Col lg={12} md={12} sm={12}>
                     <h1 className="section-title">New Products</h1>
                 </Col>
             </Row>
             <Row>
                 {newProducts.map((product, i) => {
                     return(
-                        <Col lg={3} sm={6}>
+                        <Col lg={4} md={4} sm={12}>
                             <div className="new-product">
                                 <img className="new-product-img bg-image hover-overlay hover-zoom hover-shadow ripple" src={product.image} alt={product.alt}></img>
-                                <a href={product.Url} target="_blank">{product.name}</a>
+                                <a className="new-product-name" href={product.Url} target="_blank">{product.name}</a>
                             </div>
                         </Col>
                     );
