@@ -4,6 +4,7 @@ import CarouselSection from "../components/CarouselSection";
 import ChooseType from "../components/ChooseType";
 import NewProduct from "../components/NewProducts";
 import Parrallax from "../components/Parrallax";
+import Testimonials from "../components/Testimonials";
 
 export default function HomePage() {
 
@@ -13,6 +14,7 @@ export default function HomePage() {
             <NewProduct />
             <Parrallax />
             <ChooseType />
+            <Testimonials />
         </>
     );
 }
