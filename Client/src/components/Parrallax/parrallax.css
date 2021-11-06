@@ -1,0 +1,73 @@
+.parrallx-section{
+    /* The image used */
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.3), 
+        rgba(0, 0, 0, 0.3)
+      ), url('../../images/phone-pic2.jpg');
+
+    /* Full height */
+    height: 800px; 
+    width: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    align-items: center;
+}
+
+.parrallax-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 850px;
+
+    color: white;
+    font-size: 20px;
+}
+#parrallax-title{
+    font-size: 50px;
+}
+
+#view-products-btn{
+    transition: all .5s ease;
+    color: #fff;
+    border: 3px solid white;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    font-size: 17px;
+    background-color : transparent;
+    padding: 10px;
+    outline: none;
+    border-radius: 4px;
+}
+
+#view-products-btn:hover {
+    color: black;
+    background-color: #fff;
+}
+
+@media (max-width: 360px){
+    .parrallax-text{
+        top: 30%;
+        left: 0%;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+@media (max-width: 760px){
+    .parrallx-section{
+        margin-top: 400px !important;
+    }
+}
+@media (max-width: 480px){
+    .parrallx-section{
+        margin-top: 500px !important;
+    }
+}
