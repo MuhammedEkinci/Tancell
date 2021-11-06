@@ -1,12 +1,13 @@
 import React, {useState, useEffect} from "react"
-import {Row, Col} from "react-bootstrap";
 import CarouselSection from "../components/CarouselSection";
+import NewProduct from "../components/NewProducts";
 
 export default function HomePage() {
 
     return (
         <>
             <CarouselSection />
+            <NewProduct />
         </>
     );
 }
