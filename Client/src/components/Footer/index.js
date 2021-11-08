@@ -29,12 +29,12 @@ export default function Footer(){
                             <h3 className="footer-section-title">Products</h3>
                             <ul className="list-unstyled">
                                 <li>
-                                    <NavLink className="nav-link footer-links" to="#">3D Edge To Edge</NavLink>                                </li>
+                                    <NavLink className="nav-link footer-links" to="/products/3D-Edge-To-Edge">3D Edge To Edge</NavLink>                                </li>
                                 <li>
-                                    <NavLink className="nav-link footer-links" to="#">2.5D Tempered Glass</NavLink>
+                                    <NavLink className="nav-link footer-links" to="/products/2.5D-Tempered-Glass">2.5D Tempered Glass</NavLink>
                                 </li>
                                 <li>
-                                    <NavLink className="nav-link footer-links" to="#">Phone Cases</NavLink>
+                                    <NavLink className="nav-link footer-links" to="/products/Phone-Cases">Phone Cases</NavLink>
                                 </li>
                             </ul>
                         </section>

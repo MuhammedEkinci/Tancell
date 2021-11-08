@@ -1,0 +1,8 @@
+.sidenav-links{
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+.sidenav-links:hover{
+    color: rgb(190, 190, 190);
+}
