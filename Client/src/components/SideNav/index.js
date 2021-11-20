@@ -1,10 +1,12 @@
-import React from "react";
+import React, {useState} from "react";
 import { NavLink } from "react-router-dom";
+import { Offcanvas, Button } from "react-bootstrap";
 import "./sideNav.css";
 
 export default function SideNav(){
+
     return(
-        <>
+        <div className="sidebar">
             <h4 id="side-nav-title">Product Categories</h4>
             <ul className="list-unstyled">
                 <li>
@@ -17,6 +19,6 @@ export default function SideNav(){
                     <NavLink className="nav-link sidenav-links" to="/products/Phone-Cases">Phone Cases</NavLink>
                 </li>
             </ul>
-        </>
+        </div>
     );
 }
