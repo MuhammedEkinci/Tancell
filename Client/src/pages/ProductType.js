@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { useParams } from "react-router";
 import SideNav from "../components/SideNav";
+import OffCanvaseSidenav from "../components/OffCanvasSidenav";
 import "../styles/products.css";
 
 export default function ProductType(){
@@ -18,8 +19,9 @@ export default function ProductType(){
             </Row>
             <Row>
                 <Container>
-                    <Col lg={3}>
+                    <Col lg={3} md={3} sm={12}>
                         <SideNav />
+                        <OffCanvaseSidenav />
                     </Col>
                 </Container>
             </Row>
