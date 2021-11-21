@@ -10,6 +10,9 @@ export default function SideNav(){
             <h4 id="side-nav-title">Product Categories</h4>
             <ul className="list-unstyled">
                 <li>
+                    <NavLink className="nav-link sidenav-links" to="/products">All Products</NavLink>
+                </li>
+                <li>
                     <NavLink className="nav-link sidenav-links" to="/products/3D-Edge-To-Edge">3D Edge To Edge</NavLink>
                 </li>
                 <li>

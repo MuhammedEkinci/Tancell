@@ -1,5 +1,6 @@
-import React, {useState, useEffect} from "react";
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import DisplayProducts from "../components/DisplayProducts";
 import OffCanvaseSidenav from "../components/OffCanvasSidenav";
 import SideNav from "../components/SideNav";
 import "../styles/products.css";
@@ -15,11 +16,14 @@ export default function Products(){
                 </Col>
             </Row>
             <Row>
-                <Container>
-                    <Col lg={3} md={1} sm={12}>
+                <Container className="product-display-section">
+                    <Col lg={3} md={3} sm={12}>
                         <SideNav />
                         <OffCanvaseSidenav />
                     </Col>
+                    <Col lg={9} md={12} sm={12}>
+                        <DisplayProducts />
+                    </Col> 
                 </Container>
             </Row>
         </>
