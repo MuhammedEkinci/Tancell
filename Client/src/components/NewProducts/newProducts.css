@@ -29,6 +29,7 @@
     color: black;
     font-weight: bold;
     transition: all .3s ease;
+    padding-top: 10px;
 }
 .new-product-name:hover{
     text-decoration: none;

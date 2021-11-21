@@ -22,6 +22,9 @@ export default function OffCanvaseSidenav(){
                 <Offcanvas.Body>
                     <ul className="list-unstyled">
                         <li>
+                            <NavLink className="nav-link sidenav-links" to="/products">All Products</NavLink>
+                        </li>
+                        <li>
                             <NavLink className="nav-link sidenav-links" to="/products/3D-Edge-To-Edge">3D Edge To Edge</NavLink>
                         </li>
                         <li>
