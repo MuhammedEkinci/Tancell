@@ -4,6 +4,7 @@
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
 #page-title{
     font-size: 50px;
 
@@ -15,5 +16,12 @@
 @media (min-width: 750px){
     .product-display-section{
         display: flex;
+    }
+}
+
+@media (max-width: 975px) and (min-width: 755px){
+    .products-displayed-area{
+        margin-left: -170px;
+        margin-top: 40px;
     }
 }
