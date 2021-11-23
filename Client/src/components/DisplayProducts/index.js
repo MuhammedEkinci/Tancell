@@ -9,7 +9,6 @@ export default function DisplayProducts(){
         <div className="product-display">
             {Products.map((product, i) => {
                 return(
-                    <Col lg={3} md={3} sm={6}>
                         <div className="product">
                             <Image 
                                 className="product-img bg-image hover-overlay hover-zoom hover-shadow ripple" 
@@ -25,7 +24,6 @@ export default function DisplayProducts(){
                                 {product.name}
                             </a>
                         </div>
-                    </Col>
                 )
             })}
         </div>

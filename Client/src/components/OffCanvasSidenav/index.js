@@ -11,7 +11,7 @@ export default function OffCanvaseSidenav(){
     const handleShow = () => setShow(true);
     return(
         <div className="sidenav-toggle-btn">
-            <Button variant="primary" onClick={handleShow}>
+            <Button variant="light" id="canvas-btn" onClick={handleShow}>
                 <i class="fas fa-bars"></i>
             </Button>
 

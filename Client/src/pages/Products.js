@@ -21,7 +21,7 @@ export default function Products(){
                         <SideNav />
                         <OffCanvaseSidenav />
                     </Col>
-                    <Col lg={9} md={12} sm={12}>
+                    <Col lg={9} md={12} sm={12} className="products-displayed-area">
                         <DisplayProducts />
                     </Col> 
                 </Container>
