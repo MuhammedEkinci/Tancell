@@ -19,7 +19,6 @@ export default function DisplayProducts(){
                             <a 
                                 className="product-name"
                                 href={product.Url}
-                                target="_blank"
                             >
                                 {product.name}
                             </a>

@@ -30,6 +30,7 @@
     "mdb-react-ui-kit": "^1.6.0",
     "mongoose": "^5.12.5",
     "react-bootstrap": "^2.0.1",
+    "react-image-gallery": "^1.2.7",
     "web-vitals": "^2.1.2"
   }
 }
