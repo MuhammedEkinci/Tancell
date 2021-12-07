@@ -50,6 +50,10 @@ body{
 ._2qwzr{
     max-height: 500px;
 }
+.item-detail{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 10px;
+}
 #category{
     margin-top: 40px;
 }
@@ -82,6 +86,9 @@ body{
     width: 500px;
     height: auto;
     padding-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
+.related-product-section{
+    margin-top: 100px;
+}

@@ -37,18 +37,21 @@ export default function DetailedProductPage(){
     return(
         <Container id="detailed-product-wrapper">
             <Row>
+                {/* Image Gallery */}
                 <Col lg={6} md={6} sm={12}>
                     <div className='carousel-container'>
                         <Carousel images={images} />
                     </div>
                 </Col>
+                {/* Image Gallery */}
+                {/* Product Details */}
                 <Col lg={6} md={6} sm={12}>
                     <div className="product-description-container">
                         <h2 id="product-name">{Product[0].name}</h2>
                         <ul>
                             {details.map((detail, i) => {
                                 return(
-                                    <li key={i}>{detail}</li>
+                                    <li key={i} className="item-detail">{detail}</li>
                                 );
                             })}
                         </ul>
@@ -56,9 +59,11 @@ export default function DetailedProductPage(){
                         <Button variant="dark" href={Product[0].AmazonLink} target="_blank" className="amazon-link-btn">View Product</Button>
                     </div>
                 </Col>
+                {/* Product Details */}
             </Row>
             <Row>
                 <div className="description-wrapper">
+                    {/* Product Description */}
                     <Col size={12}>
                         <h4 id="page-sub-title">DESCRIPTION</h4>
                         <hr size="12" width="100%" id="line-divider"></hr>
@@ -68,7 +73,9 @@ export default function DetailedProductPage(){
                             {Product[0].description}
                         </p>
                     </Col>
+                    {/* Product Description */}
                     <Row>
+                        {/* Product images */}
                         {descriptionImg.map((image,i) => {
                             return(
                                 <Col lg={12} sm={12}>
@@ -76,6 +83,15 @@ export default function DetailedProductPage(){
                                 </Col>
                             );
                         })}
+                    </Row>
+                    {/* Related Products */}
+                    <Row>
+                        <Col size={12}>
+                            <div className="related-product-section">
+                                <h4 id="page-sub-title">RELATED PRODUCTS</h4>
+                                <hr size="12" width="100%" id="line-divider"></hr>
+                            </div>
+                        </Col>
                     </Row>
                 </div>
             </Row>
