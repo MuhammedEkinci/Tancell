@@ -1,3 +1,8 @@
+@import "react-alice-carousel/lib/alice-carousel.css";
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 100%;
+}
 .product-filter{
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
@@ -7,10 +12,6 @@
 
 #page-title{
     font-size: 50px;
-
-}
-.product-display-section{
-
 }
 
 @media (min-width: 750px){
@@ -25,3 +26,62 @@
         margin-top: 40px;
     }
 }
+
+@media (min-width: 768px){
+    .product-description-container{
+        margin-left: 30px;
+    }
+}
+@media (max-width: 768px){
+    .product-description-container{
+        margin-top: 30px;
+    }
+}
+
+/* Deatailed Product CSS */
+#detailed-product-wrapper{
+    margin-top: 100px !important;
+}
+
+.yours-custom-class{
+    width: 100%;
+}
+/* Height CSS for the image-gallery-div */
+._2qwzr{
+    max-height: 500px;
+}
+#category{
+    margin-top: 40px;
+}
+.amazon-link-btn{
+    margin-bottom: 50px;
+}
+@media (max-width:575px){
+    #category{
+        margin-left: 10px;
+    }
+    .amazon-link-btn{
+        margin-left: 10px;
+    }
+}
+
+.description-wrapper{
+    text-align: center;
+    margin-top: 30px;
+}
+#line-divider{
+    color: rgb(207, 207, 207);
+}
+#item-description{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.description-image{
+    width: 500px;
+    height: auto;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
