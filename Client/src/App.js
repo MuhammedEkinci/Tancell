@@ -11,6 +11,7 @@ import Contact from "./pages/Contact";
 import PageNavBar from "./components/PageNaveBar";
 import Footer from "./components/Footer";
 import ProductType from "./pages/ProductType";
+import DetailedProductPage from "./pages/DetailedProductPage";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <Route exact path="/faq" component={FAQ} />
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/products/:type" component={ProductType} />
+            <Route exact path="/view-product/:id" component={DetailedProductPage}/>
           </Switch>
           <Footer />
         </Router>

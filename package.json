@@ -17,7 +17,8 @@
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^4.1.0",
-    "nodemon": "^1.18.7"
+    "nodemon": "^1.18.7",
+    "react-alice-carousel": "^2.5.1"
   },
   "dependencies": {
     "@material-ui/core": "^4.11.3",
@@ -30,6 +31,7 @@
     "mdb-react-ui-kit": "^1.6.0",
     "mongoose": "^5.12.5",
     "react-bootstrap": "^2.0.1",
+    "react-gallery-carousel": "^0.2.6",
     "web-vitals": "^2.1.2"
   }
 }
