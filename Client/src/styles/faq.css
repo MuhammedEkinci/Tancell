@@ -1,3 +1,38 @@
 .faq-section-wrapper{
     margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.accordion-item{
+    margin-bottom: 30px;
+}
+
+
+.accordion-item, .accordion-header{
+    border: 1px solid black !important;
+}
+
+.accordion-button{
+    font-family: 'Roboto Condensed', sans-serif !important;
+    font-size: 30px;
+}
+.accordion-button:hover{
+    background-color: rgb(185, 90, 0);
+    color: white;
+    transition: all smooth .3s;
+}
+
+.accordion-body{
+    border: 2px solid white !important;
+    font-family: 'Roboto Condensed', sans-serif !important;
+    font-size: 20px;
+}
+
+@media (max-width: 380px){
+    .accordion-button{
+        font-size: 20px;
+    }
+    .accordion-body{
+        font-size: 15px;
+    }
 }
