@@ -18,7 +18,7 @@ export default function ProductType(){
                 </Col>
             </Row>
             <Row>
-                <Container>
+                <Container className="product-display-section">
                     <Col lg={3} md={3} sm={12}>
                         <SideNav />
                         <OffCanvaseSidenav />

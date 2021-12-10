@@ -13,6 +13,9 @@ body{
 #page-title{
     font-size: 50px;
 }
+.product-display-section{
+    margin-bottom: 200px;
+}
 
 @media (min-width: 750px){
     .product-display-section{
