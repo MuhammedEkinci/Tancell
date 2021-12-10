@@ -7,6 +7,11 @@ export default function Products(){
     return (
         <div className="faq-section-wrapper">
             <Container>
+                <Row>
+                    <Col size={12}>
+                        <h1 id="faq-title">FAQ</h1>
+                    </Col>
+                </Row>
                 <Accordion>
                     <Accordion.Item eventKey="0">
                         <Accordion.Header>Accordion Item #1</Accordion.Header>
