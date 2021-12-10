@@ -217,5 +217,3 @@ const products = [
     //     Url: "https://www.amazon.com/TANCELL-Protector-Compatible-30%C2%B0Anti-spy-Installation/dp/B08PJTTWY8?ref_=ast_sto_dp&th=1&psc=1",
     // }
 ]
-
-export default products;

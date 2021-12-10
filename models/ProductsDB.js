@@ -23,12 +23,16 @@ const Products = new Schema({
         type: String,
         required: false
     },
+    url: {
+        type: String,
+        required: false
+    },
     price:{
         type: Number,
         required: false
     },
     amazonLink: {
-        type, String,
+        type: String,
         required: false
     },
     aboutThisItem:{
@@ -44,9 +48,10 @@ const Products = new Schema({
         }
     ],
     description: {
-        type: String
+        type: String,
+        required: false
     },
-    description: [
+    descriptionGallery: [
         {
             descriptionImageURL: {
                 type: String,
