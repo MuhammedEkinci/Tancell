@@ -2,6 +2,7 @@ require('dotenv').config();
 const compression = require("compression");
 const express = require("express");
 const mongoose = require("mongoose");
+const ProductsDB = require("./models/ProductsDB");
 
 const app = express();
 
@@ -43,4 +44,17 @@ app.use(express.json());
 // Start the API server
 app.listen(PORT, function() {
   console.log("==> 🌎  Listening on port %s. Visit http://localhost:%s/ in your browser.", PORT, PORT);
+});
+
+
+
+// Route used to get all products
+app.get("/api/products", (req, res) => {
+  ProductsDB.find({}).then((error, data) => {
+    if(error){ 
+      res.send(error)
+    } else{
+      res.json(data);
+    }
+  });
 });
