@@ -52,9 +52,20 @@ app.listen(PORT, function() {
 app.get("/api/products", (req, res) => {
   ProductsDB.find({}).then((error, data) => {
     if(error){ 
-      res.send(error)
+      return res.send(error)
     } else{
-      res.json(data);
+      return res.json(data);
     }
   });
 });
+
+//Route to get products by categorie
+app.get("/api/products/:category", (req, res) => {
+  ProductsDB.find({productType: req.params.category}).then((error, data) => {
+    if(error){
+      return res.send(error);
+    } else{
+      return res.json(data);
+    }
+  })
+})
