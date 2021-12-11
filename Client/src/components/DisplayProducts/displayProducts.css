@@ -34,3 +34,10 @@
     text-decoration: none;
     color: rgb(199, 199, 199);
 }
+
+.spinner-wrapper{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 10% !important;
+}
