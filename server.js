@@ -67,5 +67,17 @@ app.get("/api/products/:category", (req, res) => {
     } else{
       return res.json(data);
     }
-  })
-})
+  });
+});
+
+//route to get one specific item to veiw in detailed item page
+app.get("/api/veiw-product/:productId", (req, res) => {
+  console.log("Route hit!!");
+  ProductsDB.find({_id: req.params.productId}).then((error, data) => {
+    if(error){
+      return res.send(error);
+    } else {
+      return res.json(data);
+    }
+  });
+});

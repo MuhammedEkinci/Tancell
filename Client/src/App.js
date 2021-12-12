@@ -26,7 +26,7 @@ function App() {
             <Route exact path="/faq" component={FAQ} />
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/products/:category" component={ProductType} />
-            <Route exact path="/view-product/:id" component={DetailedProductPage}/>
+            <Route exact path="/view-product/:productId" component={DetailedProductPage}/>
           </Switch>
           <Footer />
         </Router>

@@ -6,5 +6,8 @@ export default {
     },
     getProductsByCategory: function(category){
         return axios.get("/api/products/" + category);
+    },
+    getOneProduct: function(productId){
+        return axios.get("/api/veiw-product/" + productId);
     }
 };
