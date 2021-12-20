@@ -58,7 +58,11 @@ const Products = new Schema({
                 required: false
             }
         }
-    ]
+    ],
+    upload_date: {
+        type: Date,
+        required: false
+    }
 }, {timestamps: true});
 
 const ProductsDB = mongoose.model("Products", Products);
