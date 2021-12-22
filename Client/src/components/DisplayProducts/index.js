@@ -23,6 +23,7 @@ export default function DisplayProducts(){
         getItems();
     }, []);
 
+
     return (
         <>
         {/* Display loading spinner if loading is true otherwise display content */}
