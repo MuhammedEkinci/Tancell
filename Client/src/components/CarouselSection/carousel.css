@@ -1,8 +1,14 @@
-.carousel-pic{
-    height: 800px;
+.carousel-pic {
+  height: 900px;
+  max-height: 900px;
 }
 
-.page-section{
-    width: 100%;
-    height: 800px !important;
+.page-section {
+  height: 800px !important;
+}
+
+@media (max-width: 615px) {
+  #carousel-section {
+    margin-bottom: -200px !important;
+  }
 }
